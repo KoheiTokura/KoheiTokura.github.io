@@ -1,0 +1,45 @@
+baseURL = "https://example.org/"
+languageCode = "ja"
+defaultContentLanguage = "ja"
+title = "Kohei TOKURA"
+theme = "gokarna"
+enableRobotsTXT = true
+
+[params]
+  customHeadHTML = '<link rel="stylesheet" href="/css/custom.css">'
+  description = "M2 student in theoretical physics"
+  footer = "Kohei TOKURA"
+  socialIcons = [
+    {name = "email", url = "mailto:u349020e@ecs.osaka-u.ac.jp"}
+  ]
+
+[menu]
+  [[menu.main]]
+    name = "ホーム"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "経歴"
+    url = "/career/"
+    weight = 2
+
+  [[menu.main]]
+    name = "出版"
+    url = "/publications/"
+    weight = 3
+
+  [[menu.main]]
+    name = "発表"
+    url = "/talks/"
+    weight = 4
+
+  [[menu.main]]
+    name = "リンク"
+    url = "/links/"
+    weight = 5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

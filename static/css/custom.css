@@ -1,0 +1,14 @@
+a {
+  color: #0066cc;
+}
+
+a:hover {
+  color: #004999;
+  text-decoration: underline;
+}
+
+.myname {
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+  text-decoration-thickness: 1.2px;
+}
