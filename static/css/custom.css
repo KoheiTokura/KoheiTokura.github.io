@@ -12,3 +12,17 @@ a:hover {
   text-underline-offset: 0.14em;
   text-decoration-thickness: 1.2px;
 }
+
+@media only screen and (min-width: 821px) {
+  main#content {
+    width: 92vw;
+    max-width: 1440px;
+  }
+
+  main#content > .container,
+  .home-content,
+  .home-posts {
+    width: 100%;
+    max-width: none;
+  }
+}
